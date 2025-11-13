@@ -1,0 +1,10 @@
+{
+  "title": "Crime Category Prediction Challenge (v1.0)",
+  "upload_type": "dataset",
+  "creators": [
+    {"name": "Singh, Abhishek", "affiliation": "Your University"}
+  ],
+  "description": "This dataset offers a comprehensive snapshot of criminal activities within the city, including dates, times, locations, victim demographics, and more. Used for crime category prediction tasks.",
+  "keywords": ["crime", "crime-prediction", "law-enforcement", "public-safety", "dataset"],
+  "license": "MIT"
+}
