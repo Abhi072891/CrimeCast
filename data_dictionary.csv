@@ -1,0 +1,23 @@
+column_name,description,type,example,notes
+Location,Street address of the crime incident,string,"100 W Main St",May be rounded or partially redacted
+Cross_Street,Cross street of the address,string,"N 2nd Ave",Optional
+Latitude,Latitude coordinate,float,34.0522,Verify coordinate validity
+Longitude,Longitude coordinate,float,-118.2437,Verify coordinate validity
+Date_Reported,Date incident reported,date,2023-01-15,YYYY-MM-DD
+Date_Occurred,Date incident occurred,date,2023-01-14,YYYY-MM-DD
+Time_Occurred,Time incident occurred,string,2130,24-hour format (HHMM or HH:MM)
+Area_ID,LAPD geographic area number,int,13,
+Area_Name,Name of geographic area,string,"Central",
+Reporting_District_no,Reporting district number,int,123,
+Part_1-2,Crime classification,string,"Part I",High-level classification
+Modus_Operandi,Activities associated with suspect,string,"forced entry",Optional
+Victim_Age,Age of victim,int,34,
+Victim_Sex,Gender of victim,string,"M","M/F/Unknown"
+Victim_Descent,Descent code of victim,string,"H",Use dataset-specific codebook if available
+Premise_Code,Numeric code for premise,int,101,See premise description
+Premise_Description,Text describing premise,string,"Residence - Single Family", 
+Weapon_Used_Code,Weapon code,int,1,Use dataset-specific codebook if available
+Weapon_Description,Weapon description,string,"Handgun", 
+Status,Case status code,string,"A",Use dataset-specific codebook
+Status_Description,Status description,string,"Arrest", 
+Crime_Category,Crime category (target),string,"Burglary",Target variable for modeling
