@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the following metadata."
+title: "Crime Category Prediction Challenge (v1.0)"
+version: "1.0"
+doi: "INSERT_DOI_IF_AVAILABLE"
+authors:
+  - family-names: "Singh"
+    given-names: "Abhishek"
+date-released: "2025-01-14"
+url: "https://github.com/<your-username>/<repo-name>"
